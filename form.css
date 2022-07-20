@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+form {
+  width: 30%;
+  margin: 2rem auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+input {
+  width: 80%;
+  padding: 0.5rem;
+  border: 1px solid rgb(221, 217, 217);
+  border-radius: 3px;
+  outline-color: rgb(177, 173, 173);
+}
+button {
+  padding: 0.8rem;
+  width: 7rem;
+  border: 0;
+  color: white;
+  background-color: rgb(22, 20, 20);
+  border-radius: 3px;
+  font-size: 1rem;
+}
+.input-box.correct input {
+  border-color: green;
+}
+.input-box.error input {
+  color: orange;
+  text-align: center;
+}
