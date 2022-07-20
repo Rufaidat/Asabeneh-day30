@@ -9,11 +9,11 @@ form {
   font-weight: 500;
 }
 input {
-  width: 80%;
+  width: 100%;
   padding: 0.5rem;
   border: 1px solid rgb(221, 217, 217);
   border-radius: 3px;
-  outline-color: rgb(177, 173, 173);
+  outline-color: red;
 }
 button {
   padding: 0.8rem;
@@ -27,7 +27,8 @@ button {
 .input-box.correct input {
   border-color: green;
 }
-.input-box.error input {
+.input-box.error p {
   color: orange;
   text-align: center;
+  font-size: 0.8rem;
 }
